@@ -7,14 +7,8 @@ library(TCGAbiolinks)
 library(EDASeq)
 library(edgeR)
 library(tidyverse)
-library(msigdb)
-library(GSEABase)
-library(singscore)
-library(pheatmap)
-library(estimate)
-library(NbClust)
 
-working_dir = "/home/yusri/Documents/project/lusc_immune/"
+working_dir = "/home/yusri/Documents/project/lusc_keratinization/"
 
 setwd(working_dir)
 genome <- "hg38"
